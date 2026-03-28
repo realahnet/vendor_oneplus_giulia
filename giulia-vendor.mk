@@ -117,18 +117,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/conf_tuning_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/conf_tuning_params.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx355:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx355 \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx480:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx480 \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx906:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx906 \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_traversal_config.json \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_preview_decision_config.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/pickref_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/config/pickref_params.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/quick_visibility_white_list:$(TARGET_COPY_OUT_ODM)/etc/camera/config/quick_visibility_white_list \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/s5kjn5_giulia:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kjn5_giulia \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/dng/ColorMatrix1_imx581.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_imx581.txt \
