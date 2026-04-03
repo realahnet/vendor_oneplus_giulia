@@ -859,6 +859,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_spi.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b07 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_spi.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b08 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.mdt \
+    vendor/oneplus/giulia/proprietary/system/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/dolby_vision.cfg \
     vendor/oneplus/giulia/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/oneplus/giulia/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
     vendor/oneplus/giulia/proprietary/vendor/etc/display/DPU1020.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1020.xml \
@@ -1069,7 +1070,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/vendor/lib64/camera/imx809_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx809_3.pb \
     vendor/oneplus/giulia/proprietary/vendor/lib64/camera/s5k3p9_2.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/s5k3p9_2.pb \
     vendor/oneplus/giulia/proprietary/vendor/lib64/camera/s5k3p9_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/s5k3p9_3.pb \
-    vendor/oneplus/giulia/proprietary/vendor/lib64/libpnc_cl_program.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnc_cl_program.bin
+    vendor/oneplus/giulia/proprietary/vendor/lib64/libpnc_cl_program.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnc_cl_program.bin \
+    vendor/oneplus/giulia/proprietary/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/persist/display/dolby_vision.cfg
 
 PRODUCT_PACKAGES += \
     com.qti.eeprom.gt24p128c2csli_imx766 \
