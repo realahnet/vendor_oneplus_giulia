@@ -198,6 +198,14 @@
             "qti.sensor.screen_sn":{
                 "type":33171996,
                 "support":"true"
+            },
+            "qti.sensor.free_fall":{
+                "type":33171009,
+                "support":"true",
+                "module":"module_ignore",
+                "module_ignore":{
+                    "mode":"virtual_sensor"
+                }
             }
         }
     },
@@ -407,6 +415,14 @@
                     "W_VIEW_G_MAX_M":-1,
                     "W_VIEW_B_MAX_M":-1,
                     "W_VIEW_C_MAX_M":-1
+                }
+            },
+            "qti.sensor.free_fall":{
+                "type":33171009,
+                "support":"true",
+                "module":"module_ignore",
+                "module_ignore":{
+                    "mode":"virtual_sensor"
                 }
             }
         }
