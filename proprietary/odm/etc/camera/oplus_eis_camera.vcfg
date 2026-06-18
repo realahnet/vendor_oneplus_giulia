@@ -492,8 +492,8 @@
         {
             "calibModle": "MovieEIS",
             "cameraID": 0,
-            "cropFactor": [1.1893, 1.5610],
-            "frameOutSize": [3444, 1476],
+            "cropFactor": [1.1893, 1.1893],
+            "frameOutSize": [1920, 1080],
             "FrameDelay": 30,
             "Readout": 10682,
             "GyroOrientation": [0.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0],
@@ -540,8 +540,8 @@
         {
             "calibModle": "MovieEIS",
             "cameraID": 2,
-            "cropFactor": [1.2, 2.1],
-            "frameOutSize": [2520, 1080],
+            "cropFactor": [1.2, 1.2],
+            "frameOutSize": [1920, 1080],
             "FrameDelay": 30,
             "Readout": 32518,
             "GyroOrientation": [0.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0],
@@ -587,8 +587,8 @@
         {
             "calibModle": "MovieEIS",
             "cameraID": 3,
-            "cropFactor": [1.219, 1.6],
-            "frameOutSize": [3360, 1440],
+            "cropFactor": [1.219, 1.219],
+            "frameOutSize": [1920, 1080],
             "FrameDelay": 30,
             "Readout": 13598,
             "GyroOrientation": [0.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0],
