@@ -117,13 +117,18 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/conf_tuning_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/conf_tuning_params.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx355:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx355 \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx480:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx480 \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx906:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx906 \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_traversal_config.json \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_preview_decision_config.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/pickref_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/config/pickref_params.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/quick_visibility_white_list:$(TARGET_COPY_OUT_ODM)/etc/camera/config/quick_visibility_white_list \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/s5kjn5_giulia:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kjn5_giulia \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/dng/ColorMatrix1_imx581.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_imx581.txt \
@@ -1345,6 +1350,7 @@ PRODUCT_PACKAGES += \
     libtriplecam_optical_zoom_control_vendor \
     libtriplecam_video_optical_zoom_vendor \
     libubifocus \
+    libui-stock \
     libvideoml \
     libvmfilexfer \
     sensors.qsh \
@@ -1355,17 +1361,9 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
-    vendor.oplus.hardware.camera.aon-V1-ndk_platform \
     vendor.oplus.hardware.camera.aon-service-impl \
-    vendor.oplus.hardware.camera_rfi-V1-ndk_vendor \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.commondcs-V1-ndk_platform \
-    vendor.oplus.hardware.cwb-V1-ndk \
-    vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk_vendor \
-    vendor.oplus.hardware.displaypanelfeature-V1-ndk_vendor \
-    vendor.oplus.hardware.performance-V1-ndk_platform \
     vendor.pixelworks.hardware.display-V2-ndk \
     vendor.pixelworks.hardware.display@1.0_vendor \
     vendor.pixelworks.hardware.display@1.1_vendor \
@@ -1605,13 +1603,10 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
-    vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
-    vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform \
     vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
-    vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
     vendor.pixelworks.hardware.display@1.2 \
