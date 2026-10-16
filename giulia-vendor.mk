@@ -771,9 +771,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/giulia/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
-    vendor/oneplus/giulia/proprietary/odm/etc/fusionlight.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight.json \
+    vendor/oneplus/giulia/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_1_3.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_1_3.json \
     vendor/oneplus/giulia/proprietary/odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube:$(TARGET_COPY_OUT_ODM)/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube \
     vendor/oneplus/giulia/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
+    vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
@@ -878,6 +879,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/firmware/ufs/SKhynix-HN8T374ZJKX141.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-HN8T374ZJKX141.bin \
     vendor/oneplus/giulia/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh \
     vendor/oneplus/giulia/proprietary/odm/firmware/ufs/ufs_version_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/ufs/ufs_version_config.xml \
+    vendor/oneplus/giulia/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_qtech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_qtech_s5kjn5_tele.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_sunny_imx355.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_sunny_imx355.bin \
@@ -918,6 +920,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b00 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b01 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b02 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b03 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b04 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b05 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b06 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b07 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.b08 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_face.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_face.mdt \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b00 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b01 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b02 \
@@ -1329,6 +1341,7 @@ PRODUCT_PACKAGES += \
     libbacklight-calib \
     libbitmlengine \
     libbitmlenginev2 \
+    libcamera2ndk_vendor \
     libcamerapostproc \
     libcamxcommonutils \
     libcamxexternalformatutils \
@@ -1666,6 +1679,7 @@ PRODUCT_PACKAGES += \
     libstblur_api \
     libstblur_capture_api \
     libstface_fd_api \
+    libstfaceunlockocl_uff \
     libstfd_mobile_api \
     libtensorflowlite_oplus \
     libtfa98xx \
@@ -1714,6 +1728,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_cwb_aidl.xml \
     manifest_oplus_displaypanelfeature_aidl.xml \
+    manifest_oplus_face.xml \
     manifest_oplus_sendextcamcmd.xml \
     vintf_manifext_aidl_panelchaplin.xml \
     feature_enabler_client \
@@ -1723,6 +1738,7 @@ PRODUCT_PACKAGES += \
     ppd \
     qdcmss \
     cwb_utils_aidl \
+    vendor.oplus.hardware.biometrics.face@1.0-service_uff \
     vendor.oplus.hardware.cammidasservice-V1-service \
     vendor.oplus.hardware.displaypanelfeature-service
 
